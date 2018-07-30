@@ -6,4 +6,5 @@ openmpCkptJob.exe: openmpCkptJob.c
 
 clean:
 	rm -f *.o
+	rm -f *.out
 	rm -f openmpCkptJob.exe
