@@ -17,10 +17,12 @@ Installing DMTCP on Summit:
 
 ## Running Test Scripts
 To run the included scripts, ensure you have properly installed DMTCP locally.
-- Download the scripts.
-- Enter into the directory comtaining the script you would like to run.
-- If running a C program, run `make` to compile the C code.
-- Submit the job script with `sbatch <desired-test-script>`
-- Job will take approximately 1 minute and 30 seconds, results will be stored in a `results.<job-id>.out` file.
+1. Download the scripts.
+2. Enter into the directory comtaining the script you would like to run.
+3. If running a C program, run `make` to compile the C code.
+4. Submit the job script with `sbatch <desired-test-script>`
+5. Job will take approximately 1 minute and 30 seconds, results will be stored in a `results.<job-id>.out` file.
 
 Notes: 
+
+MPI Test is currently not working because DMTCP does not support Omnipath connectors. Support for Omnipath is expected to come end of year.
